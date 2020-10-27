@@ -11,4 +11,8 @@ export default class Producto{
         return `${this.codigo}, ${this.nombre}, ${this.descripcion}, $${this.costo}, ${this.cantidad} piezas.`
     }
 
+    codigo(){
+        return this.codigo
+    }
+
 }
