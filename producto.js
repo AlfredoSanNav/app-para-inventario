@@ -6,5 +6,9 @@ export default class Producto{
         this.costo = costo 
         this.cantidad = cantidad
     }
-    
+
+    descripcion(){
+        return `${this.codigo}, ${this.nombre}, ${this.descripcion}, $${this.costo}, ${this.cantidad} piezas.`
+    }
+
 }
