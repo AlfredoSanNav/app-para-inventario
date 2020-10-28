@@ -35,5 +35,16 @@ export default class Inventario{
         }
     }
 
+    listar(){
+        for(let i = 0; i < 20; i++){
+            if(this.inventario[i] == null){
+                
+            } else{console.log(this.inventario[i].descripcion)}
+            
+        }
+    }
+
+    
+
 
 }

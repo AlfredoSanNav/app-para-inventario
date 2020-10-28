@@ -14,6 +14,8 @@ class Main{
         inventario01.agregarProducto(producto01, 5)
         inventario01.borrarCodigo(1001)
         inventario01.agregarProducto(producto02, 5)
+        inventario01.agregarProducto(producto01, 3)
+        inventario01.listar()
     }
 }
 
